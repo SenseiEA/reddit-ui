@@ -7,12 +7,22 @@ body{
 }
 
 .header-logo{
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     padding: 5px;
 }
 
 .logo-name{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 50px;
+    line-height: 40px;
+}
+
+.subredditProfile{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.postText{
+    line-height: 35px;
 }
