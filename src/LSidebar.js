@@ -1,5 +1,7 @@
 import Tabs from "./Tabs";
 import { IoHomeOutline } from "react-icons/io5";
+import { HiOutlineTrendingUp } from "react-icons/hi";
+
 
 export default function LSidebar(){
     return(
@@ -8,7 +10,8 @@ export default function LSidebar(){
           <Tabs 
           name="Home"
           img={<IoHomeOutline />}/>
-          <Tabs name="Popular"/>
+          <Tabs name="Popular"
+          img={<HiOutlineTrendingUp />}/>
           <hr className="border-reddit-line"></hr>
           <h1 className="text-reddit-category grid justify-items-center">Topics</h1>
           <Tabs name="Gaming"/>
